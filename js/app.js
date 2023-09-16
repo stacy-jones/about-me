@@ -1,16 +1,24 @@
 "use strict";
 
-let username = prompt("What is your name?");
+let username = prompt("Hello, what is your name?");
+alert("Hi " + username + ", welcome to my page!");
 
-console.log("User's name", username);
+console.log(username + alert);
 
-let startGame = prompt(
-  "Hi " + username + "I'm Stacy and I have a few questions to ask you."
-);
+alert("Ok " + username + ", I'm Stacy and I have a few questions to ask you.");
 
-console.log("start Game", startGame);
+console.log("welcome" + prompt);
+
+let game = prompt("Are you ready to play a little guessing game?");
+console.log(game + "," + alert + "I'm so happy that you are!");
+
+if (game==="y" || game === "yes") {
+  alert("Great... I'm so happy that you are!");
+} else {alert("I'm sorry to hear that... but you should try anyway!");
+}
 
 let family = prompt("Do I have children?").toLowerCase();
+console.log(family + alert);
 
 if (family === "y" || family === "yes") {
   alert("Yes... I have 5 children!");
@@ -18,11 +26,12 @@ if (family === "y" || family === "yes") {
   alert(" I know it's hard to believe but I actually have 5 children.");
 }
 
-let location = prompt(
+let home = prompt(
   "I live in land of crawfish boils, gumbo bowls, beignet grease and Mardi Gras... do I live in the South?"
 );
+console.log(home + alert);
 
-if (location === "y" || location === "yes") {
+if (home === "y" || home === "yes") {
   alert("Yes! I'm from New Orleans.");
 } else {
   alert(
@@ -30,14 +39,15 @@ if (location === "y" || location === "yes") {
   );
 }
 
-let favPlace = prompt(
+let place = prompt(
   "Do you think I've ever lived anywhere besides Louisiana?"
 ).toLocaleLowerCase();
 
-if (favPlace === "y" || favPlace === "yes") {
+console.log( "pLace" + alert);
+
+if (place === "y" || place === "yes") {
   alert(
-    "You're right! I have lived in Atlanta and New York but New Orleans will always be home to me."
-  );
+    "You're correct! I have lived in Atlanta and New York but New Orleans will always be home to me.");
 } else {
   alert(
     "Good guess... but I have have actually lived in Atlanta and New York!"
@@ -45,6 +55,7 @@ if (favPlace === "y" || favPlace === "yes") {
 }
 
 let cooking = prompt("Do I like to cook?").toLowerCase();
+console.log(cooking + prompt);
 
 if (cooking === "y" || cooking === "yes") {
   alert(
@@ -54,19 +65,5 @@ if (cooking === "y" || cooking === "yes") {
   alert("No... I love to cook! Cooking is a must when you have 5 children.");
 }
 
-let favFood = prompt("Do I have a favorite food?").toLowerCase();
-
-if (favFood === "y" || favFood === "yes") {
-  alert(
-    "I actually don't have a favorite, but my least favorite is mashed potatoes!"
-  );
-} else {
-  alert(
-    "I actually don't have a favorite, but my least favorite is mashed potatoes!"
-  );
-}
-
-let endGame = prompt("Thank you " + username + "!" + "Welcome to my world!");
-
-console.log("end Game", endGame);
+alert("Thanks for playing " + username + ", I'm glad you know a little more about me now!");
 
