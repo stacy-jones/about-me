@@ -55,7 +55,7 @@ if (place === "y" || place === "yes") {
 }
 
 let cooking = prompt("Do I like to cook?").toLowerCase();
-console.log(cooking + prompt);
+// console.log(cooking + prompt);
 
 if (cooking === "y" || cooking === "yes") {
   alert(

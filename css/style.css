@@ -1,0 +1,41 @@
+
+header {
+  background-image: url("../img/passion.jpg");
+  background-size: cover;
+  background-position: 50%;
+  width: 100vw;
+  height: 300px;
+}
+
+h1 {
+  font-size: 300%;
+  text-align: center;
+padding-inline: 600 px;
+text-decoration-line: underline;
+}
+h2 {
+  font-size: 150%;
+  text-align: center;
+}
+#about-section{
+    text-align: center;
+    font-size: 25px;
+    margin: 5%;
+    
+}
+#interests-section{
+    border-style: solid;
+    border-radius: 20%;
+    font-size: 30px;
+    background-color: bisque;
+    text-align: center;
+    
+}
+
+
+main{
+  background-color: beige;
+}
+footer{
+  text-align: center;
+}
