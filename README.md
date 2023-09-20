@@ -8,7 +8,7 @@ I build an app with a direct and powerful purpose. It does all of the things tha
 
 ### Links and Resources
 
-* [submission PR](https://github.com/stacy-jones/about-me.git)
+* [http://127.0.0.1:5500/](https://github.com/stacy-jones/about-me.git)
 * Any Links you used as reference
 
 ### Lighthouse Accessibility Report Score

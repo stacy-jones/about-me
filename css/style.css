@@ -4,31 +4,38 @@ header {
   background-size: cover;
   background-position: 50%;
   width: 100vw;
-  height: 300px;
+  height: 200px;
 }
-
+~
 h1 {
-  font-size: 300%;
+  font-size: 45px;
   text-align: center;
-padding-inline: 600 px;
+padding-inline: 500 px;
 text-decoration-line: underline;
 }
 h2 {
-  font-size: 150%;
+  font-size: 35px;
   text-align: center;
+  padding-top: 0%;
 }
 #about-section{
-    text-align: center;
-    font-size: 25px;
+  padding: 0%;
+
+    font-size: 20px;
     margin: 5%;
+
+    #interests-section{
+      font-size: 30%;
+    }
+    padding-top: 0%;
     
-}
-#interests-section{
-    border-style: solid;
-    border-radius: 20%;
-    font-size: 30px;
-    background-color: bisque;
-    text-align: center;
+  
+/* #interests-section{ */
+    /* border-style: solid; */
+    /* border-radius: 20%; */
+    /* font-size: 30px; */
+    /* background-color: bisque; */
+    /* text-align: center; */
     
 }
 
